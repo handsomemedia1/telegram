@@ -1,0 +1,46 @@
+{
+  "default_response": "Thanks for your message! I'll get back to you soon. 😊",
+  
+  "triggers": [
+    {
+      "keywords": ["hello", "hi", "hey", "greetings"],
+      "response": "Hello {name}! 👋 How can I assist you today?"
+    },
+    {
+      "keywords": ["bye", "goodbye", "see you", "later"],
+      "response": "Goodbye {name}! Have a great day! 👋"
+    },
+    {
+      "keywords": ["thanks", "thank you", "appreciate"],
+      "response": "You're welcome, {name}! Happy to help! 😊"
+    },
+    {
+      "keywords": ["help", "support", "assist"],
+      "response": "I'm here to help! Please describe your issue and I'll assist you as soon as possible. 🤝"
+    },
+    {
+      "keywords": ["price", "cost", "how much", "pricing"],
+      "response": "For pricing information, please visit our website or contact our sales team. I'll have someone reach out to you soon! 💰"
+    },
+    {
+      "keywords": ["hours", "open", "available", "when"],
+      "response": "We're available Monday to Friday, 9 AM - 6 PM. I'll respond to your message during business hours! ⏰"
+    },
+    {
+      "keywords": ["contact", "email", "phone", "reach"],
+      "response": "You can reach us at:\n📧 Email: support@example.com\n📞 Phone: +1234567890\n\nI'll also make sure someone gets back to you!"
+    },
+    {
+      "keywords": ["order", "purchase", "buy"],
+      "response": "Thank you for your interest in ordering! Please provide more details about what you'd like to purchase, and I'll connect you with our sales team. 🛒"
+    },
+    {
+      "keywords": ["problem", "issue", "error", "bug"],
+      "response": "I'm sorry to hear you're experiencing an issue. Please describe the problem in detail, and our support team will investigate right away. 🔧"
+    },
+    {
+      "keywords": ["status", "update", "progress"],
+      "response": "Let me check the status for you. Someone from our team will provide you with an update shortly! 📊"
+    }
+  ]
+}
